@@ -9,7 +9,7 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/a.jpeg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Sale of the summer collection</h2>
@@ -20,7 +20,7 @@ const PageIntro = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/b.jpeg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>
@@ -30,10 +30,10 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/c.jpeg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
+                <h2>!</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
