@@ -223,10 +223,6 @@ h1,h2,h3,h4,h5 {
     &.btn--yellow {
       background-color: var(--color-orange);
     }
-    &:hover {
-      background-color: var(--color-orange);
-      color: #FFF; // Change to your desired hover color
-    }
   }
 }
 
@@ -657,34 +653,38 @@ h1,h2,h3,h4,h5 {
       h2 {
         font-size: 36px;
         color: #FFF;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 120%;
         margin-bottom: 45px;
         @include breakpoint(phone) {
-          font-size: 64px;
+          font-size: 60px;
           width: 600px;
         }
       }
       .btn-shop {
-        margin-top: 5%;
-        @include breakpoint(phone) {
-          margin-top: 0;
-        }
-        width: 150px;
+        margin-left: auto;
+        width: auto;
+        padding: 15px 30px;
         display: flex;
-        color: #FFF;
+        color: #FAFAFA;
         align-items: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        cursor: pointer;
+        border: 1px solid #FAFAFA;
         i {
           justify-content: center;
           align-items: center;
           display: flex;
           width: 40px;
           height: 40px;
-          color: #FFF;
+          color: #FAFAFA;
           font-size: 15px;
           margin-right: 10px;
-          background-color: var(--color-orange);
-          border-radius: 50% 20%;
+          border-radius: 100%;
         }
       }
     }

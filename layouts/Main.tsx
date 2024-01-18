@@ -17,7 +17,7 @@ export default ({ children, title = 'Next.js Ecommerce' }: LayoutType) => {
         <title>{ title }</title>
       </Head>
 
-      <Header />
+      <Header isErrorPage={pathname === "/404"} />
 
       <main className={(pathname !== '/' ? 'main-page' : '')}>
         { children }

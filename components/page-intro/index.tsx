@@ -9,32 +9,34 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/a.jpeg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner1.jpeg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <img src="/images/apple.jpeg" alt="logo" height={100} width={100} />
+                
+                <h2>Up to 10% off Voucher</h2>
+                <a href="#" className="btn-shop">Shop now <i className="icon-right"></i></a>
               </div>
             </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/b.jpeg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/macbook.png')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <a href="#" className="btn-shop">Shop now <i className="icon-right"></i></a>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/c.jpeg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/pixel.jpeg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>!</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <h2>Sale of the summer collection</h2>
+                <a href="#" className="btn-shop">Shop now <i className="icon-right"></i></a>
               </div>
             </div>
           </div>
