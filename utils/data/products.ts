@@ -1,7 +1,7 @@
 export const products = [
   {
     id: '1',
-    name: 'T-Shirt Summer Vibes',
+    name: 'x-box',
     price: 119.99,
     discount: 30,
     quantityAvailable: 2,
@@ -10,7 +10,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-1.jpg',
+      '/images/x-box.avif',
     ],
     punctuation: {
       countOpinions: 81,
@@ -61,7 +61,7 @@ export const products = [
   },
   {
     id: '2',
-    name: 'T-Shirt Summer Vibes',
+    name: 'X-box',
     price: 119.99,
     quantityAvailable: 2,
     category: 'T-shirt',
@@ -69,7 +69,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-2.jpg',
+      '/images/x-box.avif',
     ],
     punctuation: {
       countOpinions: 81,
@@ -120,7 +120,7 @@ export const products = [
   },
   {
     id: '3',
-    name: 'T-Shirt Summer Vibes',
+    name: 'x-Box',
     price: 119.99,
     quantityAvailable: 2,
     category: 'T-shirt',
@@ -128,7 +128,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-3.jpg',
+      '/images/x-box.avif',
     ],
     punctuation: {
       countOpinions: 81,
@@ -179,7 +179,7 @@ export const products = [
   },
   {
     id: '4',
-    name: 'T-Shirt Summer Vibes',
+    name: 'TV',
     price: 119.99,
     quantityAvailable: 2,
     category: 'T-shirt',
@@ -187,7 +187,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-4.jpg',
+      '/images/TV.webp',
     ],
     punctuation: {
       countOpinions: 81,

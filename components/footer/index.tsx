@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>K</span>-Textile </h6>
+            <h6><Logo /> <span>E</span>-Shop </h6>
             <p>JusT Keep Shopping</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED.</p>
+          <p>DESIGN BY VikRam - © 2019. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

@@ -4,12 +4,19 @@ import SwiperCore, {EffectFade, Navigation} from 'swiper';
 SwiperCore.use([EffectFade, Navigation]);
 
 const PageIntro = () => {
+  const images = [
+    '/images/banner1.jpeg',
+    '/images/macbook.png',
+    '/images/pixel.jpeg',
+    '/images/slider1.webp',
+    '/images/silder2.webp',
+  ];
 
   return (
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner1.jpeg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: `url('${images[0]}')` }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <img src="/images/apple.jpeg" alt="logo" height={100} width={100} />
@@ -22,7 +29,7 @@ const PageIntro = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/macbook.png')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: `url('${images[3]}')` }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>
@@ -32,7 +39,7 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/pixel.jpeg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: `url('${images[4]}')` }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Sale of the summer collection</h2>

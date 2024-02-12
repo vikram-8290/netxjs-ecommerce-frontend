@@ -4,4 +4,4 @@ This new version contains an integration with redux-toolkit instead of redux and
 
 # Next.js Ecommerce
 
-This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM. If you like it please give it a star :)
+This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM.

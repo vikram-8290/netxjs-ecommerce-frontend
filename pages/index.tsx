@@ -3,24 +3,29 @@ import PageIntro from '../components/page-intro';
 import ProductsFeatured from '../components/products-featured';
 import Footer from '../components/footer';
 import Subscribe from '../components/subscribe';
+import { url } from 'inspector';
 
 const IndexPage = () => {
+  const images = [
+    '/images/TV.webp',
+    '/images/x-box.avif',
+  ];
   return (
     <Layout>
       <PageIntro />
 
       <section className="featured">
         <div className="container">
-          <article style={{backgroundImage: 'url(/images/featured-1.jpg)'}} className="featured-item featured-item-large">
+          <article style={{backgroundImage: `url('${images[0]}')`}} className="featured-item featured-item-large">
             <div className="featured-item__content">
               <h3>New arrivals are now in!</h3>
               <a href="#" className="btn btn--rounded">Show Collection</a>
             </div>
           </article>
           
-          <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}} className="featured-item featured-item-small-first">
+          <article style={{backgroundImage: `url('${images[1]}')`}} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
-              <h3>Basic t-shirts $29,99</h3>
+              <h3>Basic Needs</h3>
               <a href="#" className="btn btn--rounded">More details</a>
             </div>
           </article>
@@ -70,7 +75,7 @@ const IndexPage = () => {
               <i className="icon-materials"></i>
               <div className="data-item__content">
                 <h4>Finest Quality</h4>
-                <p>Designed to last, each of our products has been crafted with the finest materials.</p>
+                <p>Designed to last a lifetime.</p>
               </div>
             </li>
           </ul>
